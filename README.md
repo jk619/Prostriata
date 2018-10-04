@@ -13,13 +13,13 @@ The end result is a set of ROIs (nifti) alligned to subject's native space
 
 This does the ac-pc alignemnt, preprocessing, dtiInit, mapping ROIs to acpc space, ensemble tractography with different curvatures
 
-The end result is a set of tracts (5 files for 5 curvatures) for each ROI
+The end result is a set of tracts (5 files for 5 curvatures) for each pair of ROIs
 
 -----------------------------------------------
 
 3. do2_edit_wm_masks.m 
 
-This loads anatomy + wm for manual correction
+This loads anatomy + white matter masks for manual correction
 
 The end results are the corrected WM masks further used to constrain tractography
 
