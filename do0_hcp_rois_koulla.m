@@ -48,8 +48,8 @@ rois_fsl_num = [497 500 623 622] % numbers that Coresspond to above structures i
 
 hemi = {'lh','rh'};
 % hemi = hemi(2)
-cortical_rois = 1; %  cortical Glasser
-subcortical_rois = 0; % subcortical MNI FSL
+cortical_rois = 1; %  if 1 mapping cortical ROIs from Glasser template
+subcortical_rois = 0; % if 1 mapping subcortical ROIs from Talaraich
 reg2mni = 1;
 %%
 for s = 1:length(subjects)
