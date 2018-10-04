@@ -35,9 +35,9 @@ The end results is one bigfile per pair of ROIS containing all discovered tracts
 5. do4_life_on_merged.m 
 
 This runs LiFe on merged fibers and saves a clean version.
+The end results is one clean tract per set of ROIs
 
 -----------------------------------------------
 
 
-The end results is one clean tract per set of ROIs
 
