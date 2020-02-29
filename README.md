@@ -2,7 +2,7 @@ Processing Pipeline for Prostriata ROI2ROI tractography
 ------------------------------------------------
 1. do0_hcp_rois_koulla.m
 
-This maps the cortical ROIs from Glasser template and saves them as a nifti volume in the native space of the subjects. It also uses the Talaraich Deamon Atlas for subcortical ROIs (i.e LGN). Registers the anatomy to the MNI template to obtain the affine registration matrix. The registration mat is inversed to allow mapping of the template ROIs to the native space.
+This maps the cortical ROIs from Glasser template and saves them as a nifti volume in the native space. It also uses the Talaraich Deamon Atlas for subcortical ROIs (i.e LGN). Anatomical image is registered to the MNI template to obtain the affine registration matrix. The registration mat is inversed to allow mapping of the template ROIs to the native space.
 
 The end result is a set of ROIs (nifti) alligned to subject's native space
 
